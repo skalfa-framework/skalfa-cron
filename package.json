@@ -1,0 +1,24 @@
+{
+  "name": "@skalfa/skalfa-cron",
+  "version": "1.0.0",
+  "description": "Cron utility package for Skalfa API framework.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --ignoreDeprecations 6.0"
+  },
+  "keywords": [
+    "aluna",
+    "cron",
+    "skalfa"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@skalfa/skalfa-api-core": "file:../skalfa-api-core"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "typescript": "^6.0.3"
+  }
+}
