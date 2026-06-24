@@ -1,7 +1,7 @@
 {
   "name": "@skalfa/skalfa-cron",
   "version": "1.0.0",
-  "description": "Cron utility package for Skalfa API framework.",
+  "description": "Automated background cron job scheduling and task worker utility extension for Skalfa backend services.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
