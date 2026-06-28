@@ -15,7 +15,7 @@
   "author": "",
   "license": "UNLICENSED",
   "dependencies": {
-    "@skalfa/skalfa-api-core": "file:../skalfa-api-core"
+    "@skalfa/skalfa-api-core": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^26.0.0",
