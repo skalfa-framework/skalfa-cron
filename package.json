@@ -1,6 +1,6 @@
 {
   "name": "@skalfa/skalfa-cron",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Automated background cron job scheduling and task worker utility extension for Skalfa backend services.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,7 +15,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@skalfa/skalfa-api-core": "^1.0.0"
+    "@skalfa/skalfa-api-core": "^1.0.10"
   },
   "devDependencies": {
     "@types/node": "^26.0.0",
