@@ -1,21 +1,16 @@
 {
   "name": "@skalfa/skalfa-cron",
-  "version": "1.0.7",
-  "description": "Automated background cron job scheduling and task worker utility extension for Skalfa backend services.",
+  "version": "1.0.8",
+  "description": "Cron job scheduling and task worker utility for Skalfa Framework.",
+  "license": "MIT",
+  "keywords": ["skalfa", "skalfa-api", "skalfa-cron", "bun-framework", "elysia-framework"],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc --ignoreDeprecations 6.0"
+    "build": "tsc"
   },
-  "keywords": [
-    "aluna",
-    "cron",
-    "skalfa"
-  ],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
-    "@skalfa/skalfa-api-core": "^1.0.12"
+    "@skalfa/skalfa-api-core": "*"
   },
   "devDependencies": {
     "@types/node": "^26.0.0",
