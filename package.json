@@ -1,13 +1,19 @@
 {
   "name": "@skalfa/skalfa-cron",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Cron job scheduling and task worker utility for Skalfa Framework.",
   "license": "MIT",
-  "keywords": ["skalfa", "skalfa-api", "skalfa-cron", "bun-framework", "elysia-framework"],
+  "keywords": [
+    "skalfa",
+    "skalfa-api",
+    "skalfa-cron",
+    "bun-framework",
+    "elysia-framework"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc -p tsconfig.build.json"
   },
   "dependencies": {
     "@skalfa/skalfa-api-core": "*"
